@@ -18,6 +18,9 @@ class Die:
 #     """
 
 # # 2) Create the class constructor. Use the following method comment.
+
+    def __init__(self):
+        pass
     
 #         """Constructs a new instance of Die with a value and points attribute.
 
