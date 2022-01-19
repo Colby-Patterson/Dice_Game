@@ -20,13 +20,15 @@ class Die:
 # # 2) Create the class constructor. Use the following method comment.
 
     def __init__(self):
-        pass
+        
     
 #         """Constructs a new instance of Die with a value and points attribute.
 
 #         Args:
 #             self (Die): An instance of Die.
 #         """
+        self.value = 0
+        self.points = 0
 
 # 3) Create the roll(self) method. Use the following method comment.
 #         """Generates a new random value and calculates the points.
