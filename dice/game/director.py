@@ -76,6 +76,8 @@ class Director:
         for i in range(len(self.dice)):
             die = self.dice[i]
             values += f"{die.value} "
+            if 1 not in self.dice and 5 not in self.dice:
+                self.is_playing = False
 
         print(f"You rolled: {values}")
         print(f"Your score is: {self.total_score}\n")
